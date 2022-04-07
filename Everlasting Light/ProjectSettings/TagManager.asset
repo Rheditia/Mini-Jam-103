@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Platform
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -11,13 +13,13 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Platform
+  - Interractible
+  - SwordHolder
+  - LevelExit
+  - CameraConfiner
   - 
   - 
   - 
@@ -40,4 +42,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Environment
+    uniqueID: 2617771175
+    locked: 0
+  - name: SpawnedPlatform
+    uniqueID: 3687382001
+    locked: 0
+  - name: Interractible
+    uniqueID: 141135981
+    locked: 0
+  - name: LevelExit
+    uniqueID: 3414798093
+    locked: 0
+  - name: Platform
+    uniqueID: 7548241
+    locked: 0
+  - name: Enemy
+    uniqueID: 1938245613
+    locked: 0
+  - name: Player
+    uniqueID: 3991997227
     locked: 0
